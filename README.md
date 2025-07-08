@@ -2,7 +2,7 @@
 
 #  Fullstack Application Deployment on EKS with CI/CD and Monitoring
 
-This project sets up a **production-ready fullstack application** using:
+This project sets up a Production-ready fullstack application using:
 
 * **Terraform** for provisioning AWS infrastructure (EKS, IAM, VPC)
 * **GitHub Actions** for CI/CD pipelines
