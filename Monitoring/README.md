@@ -91,8 +91,6 @@ Visit: http://localhost:3000
 - ✅ Auto-Provisioned Grafana Dashboards
 The following dashboards will appear in Grafana:
 
-- ✅ ArgoCD Dashboard
-
 - ✅ Kubernetes Cluster Monitoring
 
 - ✅ Node Exporter Full
