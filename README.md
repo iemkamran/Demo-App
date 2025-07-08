@@ -10,7 +10,8 @@ This project sets up a Production-ready fullstack application using
 * **Kubernetes (EKS)** for orchestration
 * **Prometheus + Grafana** for monitoring
 
-![Architecture Diagram](https://drive.google.com/file/d/1vo4RcXqk41JX0hp9RlQ0LugFmE85pamK/view?usp=sharing)
+![Architecture Diagram](./Devops-Project.png)
+
 ---
 
 ##  1. Infrastructure Setup with Terraform
