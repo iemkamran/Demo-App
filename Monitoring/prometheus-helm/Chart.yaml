@@ -1,0 +1,5 @@
+apiVersion: v2
+name: prometheus
+description: A simple Prometheus deployment
+version: 0.1.0
+appVersion: "2.52.0"

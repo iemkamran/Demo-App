@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grafana-dashboards
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: grafana
+    grafana_dashboard: "1"
+data:
+data:
+  argocd.json: |
+{{ .Files.Get "dashboards/argocd.json" | indent 4 }}
+
+  kubernetes-cluster.json: |
+{{ .Files.Get "dashboards/kubernetes-cluster.json" | indent 4 }}
+
+  node-exporter.json: |
+{{ .Files.Get "dashboards/node-exporter.json" | indent 4 }}
+
+  prometheus-overview.json: |
+{{ .Files.Get "dashboards/prometheus-overview.json" | indent 4 }}
